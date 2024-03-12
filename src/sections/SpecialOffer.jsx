@@ -1,5 +1,5 @@
 const SpecialOffer = () => {
-	return <div>SpecialOffer</div>;
+	return <section>SpecialOffer</section>;
 };
 
 export default SpecialOffer;
