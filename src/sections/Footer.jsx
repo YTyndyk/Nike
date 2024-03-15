@@ -20,7 +20,9 @@ const Footer = () => {
 								key={icon.alt}
 								className="flex justify-center items-center w-12 h-12 bg-white rounded-full"
 							>
-								<img src={icon.src} alt={icon.alt} width={24} height={24} />
+								<a href="https://github.com/YTyndyk">
+									<img src={icon.src} alt={icon.alt} width={24} height={24} />
+								</a>
 							</div>
 						))}
 					</div>
@@ -34,7 +36,7 @@ const Footer = () => {
 							<ul>
 								{section.links.map((link) => (
 									<li
-										className="mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-slate-gray"
+										className="mt-3 font-montserrat text-base leading-normal text-white-400 hover:text-coral-red"
 										key={link.name}
 									>
 										<a href={link.link}>{link.name}</a>
